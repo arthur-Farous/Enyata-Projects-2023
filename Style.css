@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.part_1{
+    background-color: #029f58;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 26px;
+    padding-left: 23px;  
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 212px;
+    
+}
+.logo_nav .img{
+    height: 30px;
+    width: 83px;
+    
+}
+
+.menu_nav {
+    display: flex;
+    padding: 20px;
+}
+
+.menu_nav .img{
+    height: 31px;
+    width: 39px;
+    gap: 144px;
+}
+
+.inner_nav {
+    display: none;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    color: white;
+     margin-top: 144px;
+     align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.header{
+    display: flex;
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.header_h6{
+ font-size: 54px;
+ font-weight: 700;
+ line-height: 54.05px;
+ word-wrap: break-word;
+ text-align: center; 
+ margin-bottom: 24px;
+}
+
+.contents p{
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 24px;
+ word-wrap: break-word;
+ padding-left: 33px;
+ padding-right: 33px;
+ text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.pictures_3{
+    padding-right: 53px;
+    
+}
+
+.main{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.sub-content{
+    word-wrap: break-word; 
+    font-family: 'DM Sans';
+    padding-left:  33px;
+    padding-right: 33px; 
+    padding-bottom: 56px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text{
+color: #007640;
+ font-size: 34px;
+ font-weight: 500;
+ line-height: 34.54px;
+ text-align: center;
+ padding-top: 56px;
+}
+
+.sub-content p{
+color: black;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ text-align: center;
+ padding-top: 24px;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 56px;
+}
+
+
+  .sub-text{
+
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 56px;
+    word-wrap: break-word;
+  }
+  .sub-text h5{
+    color: black;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 34.54px;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .sub-text p{
+    color: #121212;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .section_3 {
+    background-color: #029f58;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.response{
+    color: white;
+    word-wrap: break-word;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.response h5{
+
+ font-size: 34px;
+ font-weight: 500;
+ line-height: 34.54px;
+ text-align: center;
+ padding-bottom: 24px;
+ padding-top: 218px;
+}
+
+.response p{
+color: white;
+ font-size: 16px;
+ font-weight: 500;
+ line-height: 24px;
+ text-align: center;
+ margin-bottom: 152px;
+}
+  
+  /*
+  .chat_icon{
+    padding-right: 44px;
+    padding-top: 120px;
+  }
+  */
+  
+    
+
+  .pill{
+    display: block;
+    justify-content: center;
+    align-items: center;
+   padding-top: 72px;
+   padding-left: 20px;
+   
+  }
+
+  .money{
+    display: block;
+    color: #121212;
+    word-wrap: break-word;
+    padding-top: 56px;
+     
+  }
+  
+  .money h6{
+ font-size: 34px;
+ font-weight: 500;
+ line-height: 34.54px;
+ padding-bottom: 24px;
+ padding-left: 32px;
+ padding-right: 32px;
+ 
+  }
+  .money p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ padding-bottom: 31px;
+ padding-left: 32px;
+ padding-right: 32px;
+  }
+
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+    
+}
+
+
+.link_text{
+    padding-top: 56px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.link_text h5{
+ color: #007640;
+ font-size: 34px;
+ font-weight: 500;
+ line-height: 34.54px;
+ text-align: center;
+}
+.link_char{
+    margin-top: 76px;
+    margin-bottom: 54px;
+}
+
+.link_char h6{
+ text-align: center;
+ color: #121212;
+ font-size: 24px;
+ font-weight: 500;
+ line-height: 27.98px;
+ word-wrap: break-word;
+}
+.link_char p{
+padding: 76px,53px,16px,53px;
+color: #121212;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ word-wrap: break-word;
+ text-align: center;
+}
+  
+.support h
+.section_5{
+    background-color: #202020;
+}
+
+.fifth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter_section{
+    display: flex;
+    gap: 167px;
+}
+.noise{
+    padding-top: 208px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: white;
+}
+
+.noise h6{
+ font-size: 34px;
+ font-weight: 500;
+ line-height: 34.37px;
+ word-wrap: break-word;
+ text-align: center;
+ padding-bottom: 24px;
+}
+
+.noise p{
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 24px;
+ word-wrap: break-word;
+ text-align: center;
+ padding-bottom: 138px;
+}
+
+ .section_7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #029f58;
+        padding: 64px,24px,76px,24px;
+        border-radius: 30px;
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+
+ .gallery {
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.gallery div {
+        margin-bottom: 40px; /* Add some spacing between the images */
+ }
+
+.gallery img {
+        max-width: 150px; /* Set the maximum width of the images */
+}
+
+.Game{
+    text-align: center;
+        margin-bottom: 20px;
+        color: white;
+}
+.Game h6{
+ font-size: 48px;
+ font-weight: 500;
+ line-height: 48.77px;
+ word-wrap: break-word;
+ padding-top: 64px;
+}
+
+.Game p{
+padding-top: 24px;
+padding-bottom: 48px;
+font-size: 16px;
+ font-weight: 500;
+ line-height: 24px;
+ word-wrap: break-word;
+ padding-left: 44px;
+ padding-right: 44px;
+}
+
+

@@ -1,0 +1,28 @@
+
+ * {
+        box-sizing: border-box;
+        Margin: 0;
+        Padding: 0;
+    }
+
+.globe {
+    height: 30px; 
+    width: 30px;
+}
+
+.textContent {
+      background-color:tomato;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+}
+
+.sub {
+    font-size: 15px;
+}
+
+@media (min-width: 530px)
+{.sub{ background-color: blueviolet;}
+
+    

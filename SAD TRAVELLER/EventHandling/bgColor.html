@@ -17,12 +17,22 @@
     <div>
         <button data-color="red">Red</button>
         <button data-color="blue">Blue</button>
-        <button data-color="green">green</button>
+        <button data-color="Yellow">Yellow</button>
+        <button data-color="purple">purple</button>
+        <button data-color="Pink">Pink</button>
+        <button data-color="green" data-secret="true">green</button>
     </div>
 
-
     <script>
-       
-    </script>
+ 
+
+  const buttons =document.querySelectorAll('button')
+     buttons.addEventListener('click',function() {
+     const body = document.querySelector('body');
+    body.style.backgroundColor = this.getAttribute('data-color');
+  });
+
+  
+  </script>
 </body>
 </html>

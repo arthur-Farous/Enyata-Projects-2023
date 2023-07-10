@@ -1,0 +1,671 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'overpass', 'ubuntu';
+  font-style: normal;
+}
+
+.part_1{
+  background-image: url(Assets/background_mask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width:1440px;
+}
+
+.nav_container{
+  padding:56px 24px 110px 24px;
+}
+.left_section{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding-top: 56px;
+  padding-left: 24px; ;
+  padding-right: 84px;
+}
+
+.logo{
+  width: 81.659px;
+height: 32px;
+}
+
+.Menu_nav{
+  width: 32px;
+ height: 18px;
+}
+
+.nav_links{
+  display: none;
+}
+
+.nav_bar{
+  display: flex;
+  flex-direction: column;
+  gap:115px;
+}
+
+
+
+.header_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_text {
+  justify-content: center;
+  text-align: center;
+  padding-top: 198px;
+  padding-left: 24px;
+  padding-right: 24px;
+  gap: 24px;
+  line-height: normal;
+}
+
+.header_text h6{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Overpass SemiBold';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.08px;
+}
+
+.header_text p{
+  color: #FFF;
+  font-family: 'Overpass';
+  font-size: 18px;
+  font-weight: 300;
+
+}
+
+.button_section{
+  display: flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: center;
+    margin:48px auto;
+}
+
+.button_1{
+  width: 137px;
+  height: 48px;
+  border-radius: 28px;
+  background: #FFF;
+  border: none;
+  color: #FF505C;
+  text-align: right;
+  font-family: 'Ubuntu';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+
+.button_2{
+  width: 137px;
+    height: 48px;
+    border-radius: 28px;
+    border: 1px;
+    border-color: #FFF;
+    color: white;
+    text-align: right;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 20px;
+    background: #FF505C;
+    cursor: pointer;
+}
+
+.mask{
+  max-width: 1440px;
+    width: 100%;
+    max-height: 600px;
+    position: absolute;
+    top:0px;
+    z-index: -1;
+}
+.part_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Dm {
+  padding-top: 100px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 92px;
+  color: #1F3E5A;
+  text-align: center;
+  font-family: 'Overpass SemiBold';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.84px;
+}
+
+.first_subtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 24px;
+  padding-left: 33px;
+}
+
+.first_subtext h6 {
+  color: #1F3E5A;
+  text-align: center;
+  font-family: 'Overpass SemiBold';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  gap: 16px;
+}
+
+.first_subtext p {
+  color: #4C5862;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 101px;
+}
+
+
+.section3{
+  padding:0px 24px 220px 24px;
+  position: relative;
+}
+.phones img{
+  
+  max-width: 472px;
+  width:100%;
+  max-height: 499px;
+  height: 100%;
+  
+}
+.phones{
+  display: flex;
+  justify-content: center;
+}
+
+.phonesSide{
+  display: flex;
+  flex-direction: column;
+  gap:48.31px;
+  max-height: 600px;
+  height: 100%;
+}
+
+.phonesSentence{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  align-items: center;
+}
+.phonesSentence h3{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.2px;
+  width: 100%;
+  height: 100%;
+  
+}
+.phonesSentence p{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  max-width: 540px;
+  width: 100%;
+  
+}
+  
+.gradient_2 img{
+  position: absolute;
+  top:110px;
+  left:0px;
+  max-width: 1440px;
+  width:100%;
+  max-height: 725px;
+  height: 100%;
+  z-index: -1; 
+}
+.section4{
+  padding:156px 24px 125px 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.desktopside img{
+  max-width: 699px;
+  width: 100%;
+  max-height: 403px;
+  height: 100%; 
+}
+.desktopText{
+  max-width: 504px;
+  width: 100%;
+  max-height: 416px;
+  height: 100%;
+}
+.desktop{
+  display: flex;
+  flex-direction: column;
+  gap:115px;
+}
+.desktopText{
+  display: flex;
+  flex-direction: column;
+  gap:40px;
+}
+.deskText{
+  display: flex;
+  flex-direction: column;
+  gap:16px;
+}
+.deskText h3{
+  color: #1F3E5A;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  max-width: 540px;
+  width: 100%;
+  max-height: 41px;
+  height: 100%;
+}
+.deskText p{
+  color: #4C5862;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  max-width:540px ;
+  width:100% ;
+  height:100% ;
+}
+footer{
+  background-color: #24242C;
+  border-radius: 0px 100px 0px 0px;
+  padding: 75px 137px;
+  max-width: 1440px;
+  width:100%;
+  height: 100%;
+}
+.Blogr{
+  color: #ffffff;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  max-width: 101px;
+  width: 100%;
+  max-height: 40px;
+  height: 100%;
+}
+.footer_nav{
+  display: flex;
+  flex-direction: column;
+  gap:72px;
+}
+.foot_link{
+  display: flex;
+  flex-direction: column;
+  gap:40px
+}
+.list{
+  display: flex;
+  flex-direction: column;
+  gap:21px;
+  justify-content: center;
+}
+ul{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+.list h4{
+  color: #FFF;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 33px;
+}
+ul a{
+  color: #FFF;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px;
+  opacity: 0.75;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1300px) {
+
+/*styling the contents in the first section(part_1)*/
+.Menu_nav{ display: none;}
+/*.part_1{
+  background-image: url(Assets/background_mask.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}*/
+
+.main_container{
+  padding:63px 167px 155px 167px;
+}
+ .nav_links{
+  display: block;
+ }
+ .inner_nav{
+  display: flex;
+  flex-direction: row;   
+  gap:64px;
+ }
+
+.nav_links{
+  display: flex;
+  flex-direction: row;
+  gap:200px;
+}
+ 
+.left_section{
+  padding-left: 100px;
+  padding-top: 7px;
+}
+  .middle_section{
+    display: flex;
+    flex-direction: row;
+     gap: 48px;
+     align-items:center;
+     margin: 5px auto;
+  }
+
+  .right_section{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+
+
+  a {
+      text-decoration: none;
+      color: #ffff;
+      list-style: none;
+      font-family: 'Ubuntu';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+
+    .middle_section.ul li a{display: none;}
+  .sign_in_button {
+     display: flex;
+     justify-content: center;
+      align-items: center;
+      border-radius: 28px;
+      background-color: #FFF;
+      color: #FF505C;
+      text-align: right;
+      cursor: pointer;
+      border-color: #FFF;
+      font-family: 'Ubuntu';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      width: 100px;
+      height: 35px;
+  }
+
+  .sign_in_button:hover {
+    background-color:transparent;
+  }
+  .right_section h5{
+    color: #FFF;
+    text-align: right;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 15px;
+  }
+
+/*new changes for the h6 and p tag in section 1*/
+.header_text {
+ padding-top: 198px;
+  padding-left: 260px;
+  padding-right: 260px;
+  padding-top: 141px;}
+  
+  .header_text h6{
+      font-size: 64px;
+      max-width: 920px;
+      letter-spacing: -1.92px;
+  }
+
+  .header_text p{
+      font-size: 20px;
+      display: flex;
+  }
+
+  .button_section{
+    display: flex;
+    justify-content: center;
+}
+
+   
+.button_2:hover{
+  background: #FFF;
+  color: #FF505C;
+  
+}
+
+.button_1:hover{
+  background: #FF505C;
+  color: #FFF;
+}
+    
+.content{
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+.first_subtext h6{
+  color: #1F3E5A;
+  font-family: 'Overpass';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+.first_subtext p{
+  color: #4C5862;
+  font-family: Overpass;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+}
+.second_section{
+  display: flex;
+  flex-direction: column;
+  gap:93px;
+}
+    
+.section3{
+  padding:100px 0px 0px 165px;
+}
+
+.phonesSide{
+display: flex;
+flex-direction: row;
+}
+.gradient_2 img{
+max-width: 1440px;
+width: 100%;
+max-height: 400px;
+height: 100%;
+}
+
+.phonesSentence{
+padding: 111px 165px 111px 20px;
+display: flex;
+align-items: center;
+margin: 0 auto;
+
+}
+.phonesSentence p{
+color: #FFF;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: justify;
+}
+.phonesSentence h3{
+color: #FFF;
+font-family: 'Overpass';
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.2px;
+white-space: nowrap;
+}
+.desktop{
+display: flex;
+flex-direction: row;
+gap:207px;
+}
+.section4{
+padding: 301px 165px 308px 0px;
+}
+.deskText h3{
+color: #1F3E5A;
+font-family: 'Overpass';
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: 28px;
+display: flex;
+align-items: center ;
+}
+.deskText p{
+color: #4C5862;
+font-family: 'Overpass';
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: left; 
+}
+.desktopText{
+display: flex;
+flex-direction: column;
+gap:64px;
+}
+
+.battery{
+color: #4C5862;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+}
+.footer_nav{
+  display: flex;
+  flex-direction: row;
+  gap:184px
+}
+footer{
+  max-width: 1440px;
+  width:100%;
+  height: 100%;
+  padding:70px 165px;
+  
+}
+.foot_link{
+  display: flex;
+  flex-direction: row;
+  gap:184px;
+}
+.list h4{
+  color: #FFF;
+font-family: Ubuntu;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+}
+ul a{
+  color: #FFF;
+font-family: 'Ubuntu';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+opacity: 0.75;
+}
+.pricing:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.list ul{
+  max-width: 255px;
+  width: 100%;
+  max-height: 165px;
+  height: 100%;
+}
+    
+}
